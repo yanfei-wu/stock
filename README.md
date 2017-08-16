@@ -7,7 +7,7 @@ This project analyzes historical stock data retrived from Google Finance and per
 * build predictive models to make recommendations on trading actions   
 * design and evaluate portfolio holdings and trading strategies  
 
-### Part 1. Five-Year S&P 500 Stock Analysis ([`SP500_Stock_Analysis.ipynb`](https://github.com/yanfei-wu/stock/blob/master/SP500_Stock_Analysis.ipynb))  
+#### Part 1. Five-Year S&P 500 Stock Analysis ([`SP500_Stock_Analysis.ipynb`](https://github.com/yanfei-wu/stock/blob/master/SP500_Stock_Analysis.ipynb))  
 
 In this part, common performance metrics including returns, alpha, beta, sharpe ratio, and moving averages are analyzed for stocks contained in the S&P 500 index. The price data of SPY, i.e., SPDR S&P 500 trust ETF (designed to track the S&P 500 stock market index), is used as reference for performance comparisons and also serves as benchmark for calculating alpha and beta. In addition to individual stocks, the averaged performance of different stock sectors in S&P 500 are also compared. The best and worst performing stocks/sectors are found.  
 
