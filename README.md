@@ -1,6 +1,6 @@
 # Stock Market Analysis and Modeling  
 
-![stock]('./images/stock.png') 
+![stock](./images/stock.png) 
 
 ## Introduction 
 This project analyzes historical stock data retrived from Google Finance and performs a series of analyses and modeling to   
