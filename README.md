@@ -13,9 +13,9 @@ In this part, common performance metrics including returns, alpha, beta, sharpe 
 
 #### Part 2. Machine Learning of Stock Market (`model/`)   
 
-In this part, a simple classification model is built to help make trading decisions. The stock data used is the historical price for holdings in the PowerShares QQQ ETF. Based on the price change (averaged 1-day to 5-day price changes) of the target stock, labels are generated (1 - buy, 0 - hold, and -1 - sell) for the classification task. The daily returns for all the rest of the holdings in the ETF are used as the features. The model bulds upon the `VotingClassifier` consisting of support vector machines, logistic regression, and random randomforst.   
+As an initial attempt, a simple classification model is built to help make trading decisions. The stock data used is the historical price for holdings in the PowerShares QQQ ETF. Based on the price change (averaged 1-day to 5-day price changes) of the target stock, labels are generated (1 - buy, 0 - hold, and -1 - sell) for the classification task. The daily returns for all the rest of the holdings in the ETF are used as the features. The model builds upon the `VotingClassifier` consisting of support vector machines, logistic regression, and random forest.   
 
-*Next step*: build RNN models to model the price
+*Next step*: build RNN models to model the stock price data
 
 #### Part 3. Portfolio Holdings and Trading Strategies (ongoing)  
 
